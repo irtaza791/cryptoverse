@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(26,8,43,1) 100%);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.main-headline {
+    text-align: center;
+    margin-top: 50px;
+}
+.main-headline h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.main-headline p {
+    font-size: 18px;
+    color: #bbb;
+}
+.login-signup {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
