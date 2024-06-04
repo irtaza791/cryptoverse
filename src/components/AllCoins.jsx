@@ -68,6 +68,7 @@ const AllCoins = () => {
           <Button variant="contained" onClick={() => handlePageChange(1)} disabled={(currentPage + 1) * 10 >= cryptos.length}>
             Next
           </Button>
+          
         </Box>
       </Card>
       {selectedCrypto && (
